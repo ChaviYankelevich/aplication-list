@@ -16,6 +16,6 @@ sdk.getServices({limit: '20'})
   app.get('/',(req,res)=>{
     res.send('hello world')
 })
-app.listen(port,()=>{
-    console.log(`app listening on http://localhost:${port}`)
-})
+// app.listen(port,()=>{
+//     console.log(`app listening on http://localhost:${port}`)
+// })
